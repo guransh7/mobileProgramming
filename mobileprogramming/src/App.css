@@ -1,0 +1,29 @@
+.AppDiv {
+  text-align: center;
+  margin: 5% auto;
+  width: 90%;
+}
+
+.spaceContainer {
+  width: 20%;
+}
+
+.parentDiv {
+  display: flex;
+}
+
+@media screen and (max-width: 967px) {
+  .spaceContainer {
+    width: 10%;
+  }
+}
+
+@media screen and (max-width: 463px) {
+  .spaceContainer {
+    width: 0;
+  }
+  .AppDiv {
+    margin: 1%;
+    width: 100%;
+  }
+}
