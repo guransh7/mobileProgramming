@@ -1,4 +1,4 @@
- import React, { Component } from "react";
+import React, { Component } from "react";
 
 class AddData extends Component {
   state = {
@@ -17,7 +17,7 @@ class AddData extends Component {
           className="form-control"
           placeholder="Enter Name"
           aria-label="Recipient's username"
-          onKeyPress={event => this.handleKeyPress(event)}
+          onKeyUp={event => this.handleKeyPress(event)}
           aria-describedby="basic-addon2"
         />
         <div className="input-group-append">
